@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#100b1f" />
+    <title>Latvia After Dark</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="scene">
+      <div class="moon" aria-hidden="true"></div>
+      <div class="stars" aria-hidden="true"></div>
+      <div class="bat bat-one" aria-hidden="true">⌁</div>
+      <div class="bat bat-two" aria-hidden="true">⌁</div>
+      <div class="mist mist-one" aria-hidden="true"></div>
+      <div class="mist mist-two" aria-hidden="true"></div>
+
+      <section class="clock-card" aria-labelledby="page-title">
+        <p class="eyebrow"><span class="status-dot"></span> Live from the Baltic</p>
+        <h1 id="page-title">Latvia<br /><span>After Dark</span></h1>
+        <div class="divider" aria-hidden="true"><span>✦</span></div>
+        <time id="clock" class="clock" datetime="">00:00:00</time>
+        <p id="date" class="date">Loading local date…</p>
+        <p class="timezone">Europe / Riga <span>·</span> EET / EEST</p>
+      </section>
+
+      <div class="pumpkin pumpkin-left" aria-hidden="true">
+        <span class="pumpkin-face">◢ ◣<br /> ◥◤</span>
+      </div>
+      <div class="pumpkin pumpkin-right" aria-hidden="true">
+        <span class="pumpkin-face">◢ ◣<br /> ◥◤</span>
+      </div>
+      <p class="footer-note">The witching hour is always closer than you think.</p>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
